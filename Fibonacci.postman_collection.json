@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "e66fd73d-5add-4f6b-81ba-758115e6c2a7",
+		"name": "https://funcionprojectfibonacci.azurewebsites.net/api/Fibonacci",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26491664"
+	},
+	"item": [
+		{
+			"name": "Fibonacci",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization-Token",
+						"value": "c2VhZ29uOjEyMzQ=",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nth\": \"{{nth}}\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://funcionprojectfibonacci.azurewebsites.net/api/Fibonacci",
+					"protocol": "https",
+					"host": [
+						"funcionprojectfibonacci",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
